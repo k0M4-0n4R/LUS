@@ -7,9 +7,7 @@ echo “Upgrade auf eine neue Linux Version“
 
 sudo chmod +x LinuxVersion.sh
 do-release-upgrade
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get auotremove -y
-sudo apt-get clean -y
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt-get auotremove && sudo apt-get clean -y
 do-release-upgrade -d -y
 do-release-upgrade
