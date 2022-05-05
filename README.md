@@ -3,6 +3,9 @@ LinuxUpgradeScript
 
 A small Script that upgrade and update your Linux Version.
 
+bash -c "$(curl -sL https://raw.githubusercontent.com/k0M4-0n4R/LUS/main/LinuxVersion.sh)"
+
+
 Port Instruction
 
 You can try to open the port with this command 
